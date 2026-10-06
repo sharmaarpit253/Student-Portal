@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name>Saksham Sharma</name>
+        <course>B.Tech CSE AI</course>
+        <semester>1st</semester>
+        <marks>65</marks>
+    </student>
+    <student>
+        <name>Anant Singh</name>
+        <course>B.Tech CSE</course>
+        <semester>1st</semester>
+        <marks>72</marks>
+    </student>
+    <student>
+        <name>Amit Verma</name>
+        <course>B.Tech IT</course>
+        <semester>2nd</semester>
+        <marks>98</marks>
+    </student>
+    <student>
+        <name>Priya Gupta</name>
+        <course>B.Tech CSE-AI</course>
+        <semester>4th</semester>
+        <marks>86</marks>
+    </student>
+    <student>
+        <name>Chetan Mehta</name>
+        <course>B.Tech AMIA</course>
+        <semester>3rd</semester>
+        <marks>87</marks>
+    </student>
+    <student>
+        <name>Sneh Sharma</name>
+        <course>B.Tech CSE</course>
+        <semester>6th</semester>
+        <marks>86</marks>
+    </student>
+    <student>
+        <name>Shourya kumar</name>
+        <course>B.Tech IT</course>
+        <semester>2nd</semester>
+        <marks>73</marks>
+    </student>
+</students>

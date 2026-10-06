@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="navbar">
+        <h2>Student Portal</h2>
+        <span id="welcome-text"></span>
+        <div id="nav-buttons">
+            <button onclick="toggleTable()">Show/Hide Table</button>
+            <button onclick="changeHeading()">Change Heading</button>
+            <button onclick="toggleMode()">Light / Dark Mode</button>
+        </div>
+    </div>
+
+    <h1 id="main-heading">Student Dashboard</h1>
+
+    <div id="dashboard">
+
+        <div class="card" id="info-card">
+            <span class="badge">INFO</span>
+            <h3>Class Information</h3>
+            <p id="total-students">Loading...</p>
+            <p id="average-marks"></p>
+        </div>
+
+        <div class="card" id="top-card">
+            <span class="badge">TOP</span>
+            <h3>Top Student</h3>
+            <p id="top-student">Loading...</p>
+        </div>
+
+    </div>
+
+    <div class="card" id="table-card">
+        <h3>Student Marks Table</h3>
+        <table id="student-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Semester</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="portal.js"></script>
+</body>
+</html>
